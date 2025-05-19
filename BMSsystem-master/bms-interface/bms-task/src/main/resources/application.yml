@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: edu-task
+  profiles:
+    active: database,orm,web

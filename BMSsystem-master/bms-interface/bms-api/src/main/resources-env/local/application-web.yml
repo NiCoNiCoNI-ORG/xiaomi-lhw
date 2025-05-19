@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+#指定日志路径(本地对此没有要求，不用name，如果用name本地创建文件夹会报错，但发布环境需要用name，保持一致)
+logging:
+  file:
+    name: ../logs/${spring.application.name}.log
+
+spring:
+  mvc:
+    va

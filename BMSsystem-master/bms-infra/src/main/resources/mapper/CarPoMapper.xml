@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bench.bms.infra.repository.mapper.CarPoMapper">
+
+    <resultMap id="carResultMap" type="com.bench.bms.infra.repository.entity.CarPo">
+        <id property="id" column="id" jdbcType="BIGINT"/>
+        <result property="vid" column="vid" jdbcType="VARCHAR"/>
+        <result property="carId" column="car_id" jdbcType="BIGINT"/>
+        <result property="batteryType" column="battery_type" jdbcType="VARCHAR"/>
+        <result property="totalMileage" column="total_mileage" jdbcType="BIGINT"/>
+        <result property="batteryStatus" column="battery_status" jdbcType="INTEGER"/>
+        <result property="createTime" column="create_time" jdbcType="BIGINT"/>
+        <result property="createUser" column="create_user" jdbcType="VARCHAR"/>
+        <result property="updateTime" column="update_time" jdbcType="BIGINT"/>
+        <result property="updateUser" column="update_user" jdbcType="VARCHAR"/>
+
+    </resultMap>
+
+    <select id="selectByCarId" resultType="com.bench.bms.infra.repository.entity.CarPo">
+        SELECT id, vid, car_id, battery_type, total_mileage, battery_status
+        FROM Car WHERE car_id = #{carId}
+    </select>
+
+    <select id="listAllCar" resultType="com.bench.bms.infra.repository.entity.CarPo">
+        SELECT id, vid, car_id, battery_type, total_mileage, battery_status FROM Car;
+    </select>
+
+    <update id="updateCarByVid" parameterType="com.bench.bms.infra.repository.entity.CarPo">
+        UPDATE Car
+        SET car_id = #{carId},
+        battery_type = #{batteryType},
+        total_mileage = #{totalMileage},
+        battery_status = #{batteryStatus},
+        update_time = #{updateTime},
+        update_user = #{updateUser}
+        WHERE vid = #{vid}
+    </update>
+
+    <delete id="deleteByVid">
+        DELETE from car where vid = #{vid}
+    </delete>
+
+</mapper>

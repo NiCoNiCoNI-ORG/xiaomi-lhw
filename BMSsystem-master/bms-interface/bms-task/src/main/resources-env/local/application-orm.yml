@@ -1,0 +1,17 @@
+mybatis-plus:
+  #myBatis mapper的文件路径
+#  mapper-locations: classpath:mapper/*.xml
+#  #别名数据对象包路径
+#  type-aliases-package: com.bench.bms.infra.repository.entity
+  configuration:
+    # MyBatis 配置
+    map-underscore-to-camel-case: true
+    # 设置默认枚举类型处理器
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+    # 设置默认枚举类型处理器
+    default-enum-type-handler: org.apache.ibatis.type.EnumOrdinalTypeHandler
+  global-config:
+    # 全局配置
+    db-config:
+      # 数据库配置
+      id-type: auto

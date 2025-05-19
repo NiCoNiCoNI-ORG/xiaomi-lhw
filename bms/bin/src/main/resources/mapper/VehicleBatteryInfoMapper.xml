@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiaomi.lhw-bms.repository.VehicleBatteryInfoMapper">
+    <insert id="insert" parameterType="com.xiaom.bms.model.VehicleBatteryInfo">
+        INSERT INTO vehicle_battery_info (id, battery_id, vehicle_id, create_time, update_time)
+        VALUES (#{id}, #{batteryId}, #{vehicleId}, #{createTime}, #{updateTime})
+    </insert>
+
+    <select id="selectById" resultType="com.xiaom.bms.model.VehicleBatteryInfo">
+        SELECT id, battery_id, vehicle_id, create_time, update_time
+        FROM vehicle_battery_info
+        WHERE id = #{id}
+    </select>
+
+    <update id="update" parameterType="com.xiaom.bms.model.VehicleBatteryInfo">
+        UPDATE vehicle_battery_info
+        SET battery_id = #{batteryId},
+            vehicle_id = #{vehicleId},
+            update_time = #{updateTime}
+        WHERE id = #{id}
+    </update>
+
+    <delete id="deleteById">
+        DELETE FROM vehicle_battery_info
+        WHERE id = #{id}
+    </delete>
+</mapper>

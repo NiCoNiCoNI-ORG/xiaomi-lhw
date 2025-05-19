@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiaomi.lhw-bms.repository.BatteryWarnMapper">
+    <insert id="insert" parameterType="com.xiaom.bms.model.BatteryWarn">
+        INSERT INTO battery_warn (id, warn_name, warn_content, create_time, update_time)
+        VALUES (#{id}, #{warnName}, #{warnContent}, #{createTime}, #{updateTime})
+    </insert>
+
+    <select id="selectById" resultType="com.xiaom.bms.model.BatteryWarn">
+        SELECT id, warn_name, warn_content, create_time, update_time
+        FROM battery_warn
+        WHERE id = #{id}
+    </select>
+
+    <update id="update" parameterType="com.xiaom.bms.model.BatteryWarn">
+        UPDATE battery_warn
+        SET warn_name = #{warnName},
+            warn_content = #{warnContent},
+            update_time = #{updateTime}
+        WHERE id = #{id}
+    </update>
+
+    <delete id="deleteById">
+        DELETE FROM battery_warn
+        WHERE id = #{id}
+    </delete>
+</mapper>

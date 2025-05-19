@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiaomi.lhw-bms.repository.SignalInfoMapper">
+    <insert id="insert" parameterType="com.xiaom.bms.model.SignalInfo">
+        INSERT INTO signal_info (id, signal_name, signal_content, create_time, update_time)
+        VALUES (#{id}, #{signalName}, #{signalContent}, #{createTime}, #{updateTime})
+    </insert>
+
+    <select id="selectById" resultType="com.xiaom.bms.model.SignalInfo">
+        SELECT id, signal_name, signal_content, create_time, update_time
+        FROM signal_info
+        WHERE id = #{id}
+    </select>
+
+    <update id="update" parameterType="com.xiaom.bms.model.SignalInfo">
+        UPDATE signal_info
+        SET signal_name = #{signalName},
+            signal_content = #{signalContent},
+            update_time = #{updateTime}
+        WHERE id = #{id}
+    </update>
+
+    <delete id="deleteById">
+        DELETE FROM signal_info
+        WHERE id = #{id}
+    </delete>
+</mapper>

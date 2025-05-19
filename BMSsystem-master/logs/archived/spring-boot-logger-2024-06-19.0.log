@@ -1,0 +1,1171 @@
+2024-06-19 13:25:43,033 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 13:25:43,065 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 26500 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 13:25:43,066 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 13:25:43,749 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 13:25:43,752 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 13:25:43,780 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-06-19 13:25:43,869 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:25:43,869 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:25:43,869 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:25:43,870 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 13:25:44,308 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 13:25:44,319 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 13:25:44,321 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 13:25:44,321 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 13:25:44,381 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 13:25:44,381 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1280 ms
+2024-06-19 13:25:44,450 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'BMSController': Injection of resource dependencies failed
+2024-06-19 13:25:44,452 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2024-06-19 13:25:44,465 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-19 13:25:44,478 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.bench.bms.domain.service.SignalDomainService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.bench.bms.domain.service.SignalDomainService' in your configuration.
+
+2024-06-19 13:26:11,973 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 13:26:12,004 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 29712 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 13:26:12,005 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 13:26:12,548 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 13:26:12,551 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 13:26:12,581 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-19 13:26:12,673 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:26:12,673 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:26:12,673 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:26:12,673 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 13:26:13,072 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 13:26:13,081 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 13:26:13,083 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 13:26:13,083 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 13:26:13,129 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 13:26:13,129 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1087 ms
+2024-06-19 13:26:13,182 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'BMSController': Injection of resource dependencies failed
+2024-06-19 13:26:13,184 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2024-06-19 13:26:13,196 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-19 13:26:13,209 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.bench.bms.domain.service.SignalDomainService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.bench.bms.domain.service.SignalDomainService' in your configuration.
+
+2024-06-19 13:26:30,105 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 13:26:30,136 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 7556 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 13:26:30,138 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 13:26:30,653 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 13:26:30,656 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 13:26:30,686 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2024-06-19 13:26:30,780 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:26:30,780 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:26:30,781 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:26:30,781 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 13:26:31,181 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 13:26:31,191 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 13:26:31,192 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 13:26:31,192 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 13:26:31,238 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 13:26:31,239 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1063 ms
+2024-06-19 13:26:31,291 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'BMSController': Injection of resource dependencies failed
+2024-06-19 13:26:31,293 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2024-06-19 13:26:31,307 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-19 13:26:31,321 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.bench.bms.domain.service.SignalDomainService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.bench.bms.domain.service.SignalDomainService' in your configuration.
+
+2024-06-19 13:29:19,058 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 13:29:19,088 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 28576 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 13:29:19,089 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 13:29:19,599 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 13:29:19,602 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 13:29:19,631 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-19 13:29:19,723 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:29:19,724 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:29:19,724 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:29:19,724 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 13:29:20,124 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 13:29:20,134 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 13:29:20,135 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 13:29:20,135 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 13:29:20,182 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 13:29:20,182 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1057 ms
+2024-06-19 13:29:20,234 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'BMSController': Injection of resource dependencies failed
+2024-06-19 13:29:20,236 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2024-06-19 13:29:20,249 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-19 13:29:20,264 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.bench.bms.domain.service.SignalDomainService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.bench.bms.domain.service.SignalDomainService' in your configuration.
+
+2024-06-19 13:33:19,080 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 13:33:19,111 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 6248 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 13:33:19,112 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 13:33:19,665 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 13:33:19,668 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 13:33:19,692 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-19 13:33:19,780 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:33:19,780 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:33:19,781 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:33:19,781 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 13:33:20,195 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 13:33:20,205 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 13:33:20,207 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 13:33:20,207 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 13:33:20,253 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 13:33:20,253 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1102 ms
+2024-06-19 13:33:20,845 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 13:33:21,196 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 13:33:21,213 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 13:33:21,221 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.43 seconds (process running for 3.545)
+2024-06-19 13:33:30,528 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 13:33:30,528 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-4] Initializing Servlet 'dispatcherServlet'
+2024-06-19 13:33:30,529 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-4] Completed initialization in 1 ms
+2024-06-19 13:42:29,287 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 13:42:29,319 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 32968 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 13:42:29,320 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 13:42:29,865 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 13:42:29,868 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 13:42:29,898 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-06-19 13:42:29,993 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:42:29,993 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:42:29,993 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:42:29,994 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 13:42:30,433 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 13:42:30,442 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 13:42:30,444 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 13:42:30,444 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 13:42:30,492 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 13:42:30,492 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1136 ms
+2024-06-19 13:42:31,070 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 13:42:31,438 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 13:42:31,452 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 13:42:31,460 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.466 seconds (process running for 2.95)
+2024-06-19 13:42:37,183 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 13:42:37,183 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-4] Initializing Servlet 'dispatcherServlet'
+2024-06-19 13:42:37,184 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-4] Completed initialization in 1 ms
+2024-06-19 16:35:40,448 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:35:40,478 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 23564 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 16:35:40,479 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:35:41,036 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:35:41,039 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:35:41,069 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:35:41,163 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:35:41,163 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:35:41,163 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:35:41,164 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:35:41,576 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 16:35:41,586 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:35:41,588 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 16:35:41,588 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 16:35:41,637 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 16:35:41,637 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1124 ms
+2024-06-19 16:35:42,200 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:35:42,543 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:35:42,557 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 16:35:42,565 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.402 seconds (process running for 2.887)
+2024-06-19 16:35:47,352 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 16:35:47,352 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-19 16:35:47,353 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2024-06-19 16:35:47,485 INFO c.z.h.HikariDataSource [http-nio-8080-exec-2] spaceHikariCPPool - Starting...
+2024-06-19 16:35:47,628 INFO c.z.h.p.HikariPool [http-nio-8080-exec-2] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@58021eb5
+2024-06-19 16:35:47,630 INFO c.z.h.HikariDataSource [http-nio-8080-exec-2] spaceHikariCPPool - Start completed.
+2024-06-19 16:35:47,669 ERROR c.b.b.c.e.GlobalExceptionHandler [http-nio-8080-exec-2] request error
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "java.util.Map.get(Object)" is null
+	at com.bench.bms.infra.repository.impl.RuleRepositoryImpl.getWarn(RuleRepositoryImpl.java:27)
+	at com.bench.bms.application.service.impl.RuleDomainServiceImpl.getWarn(RuleDomainServiceImpl.java:25)
+	at com.bench.bms.application.service.impl.BmsWarnServiceImpl.getWarn(BmsWarnServiceImpl.java:54)
+	at com.bench.bms.api.web.BMSController.lambda$queryWarnLevel$0(BMSController.java:53)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at com.bench.bms.api.web.BMSController.queryWarnLevel(BMSController.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-06-19 16:36:10,255 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 16:36:10,259 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 16:37:33,337 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:37:33,366 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 13896 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 16:37:33,367 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:37:33,893 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:37:33,896 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:37:33,925 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:37:34,017 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:37:34,017 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:37:34,017 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:37:34,017 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:37:34,422 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 16:37:34,431 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:37:34,433 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 16:37:34,433 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 16:37:34,481 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 16:37:34,482 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1080 ms
+2024-06-19 16:37:35,041 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:37:35,390 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:37:35,404 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 16:37:35,411 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.382 seconds (process running for 2.864)
+2024-06-19 16:37:38,644 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 16:37:38,644 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-19 16:37:38,645 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2024-06-19 16:37:38,760 INFO c.z.h.HikariDataSource [http-nio-8080-exec-2] spaceHikariCPPool - Starting...
+2024-06-19 16:37:38,893 INFO c.z.h.p.HikariPool [http-nio-8080-exec-2] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d984ffb
+2024-06-19 16:37:38,895 INFO c.z.h.HikariDataSource [http-nio-8080-exec-2] spaceHikariCPPool - Start completed.
+2024-06-19 16:44:20,056 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 16:44:20,061 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 16:48:22,123 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:48:22,154 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 35120 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 16:48:22,155 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:48:22,696 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:48:22,699 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:48:22,725 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:48:22,826 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:48:22,827 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:48:22,827 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:48:22,827 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:48:23,235 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 16:48:23,245 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:48:23,247 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 16:48:23,247 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 16:48:23,295 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 16:48:23,295 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1101 ms
+2024-06-19 16:48:23,871 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:48:24,231 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:48:24,244 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 16:48:24,252 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.409 seconds (process running for 2.906)
+2024-06-19 16:48:27,177 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 16:48:27,177 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-19 16:48:27,178 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-06-19 16:48:27,293 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Starting...
+2024-06-19 16:48:27,419 INFO c.z.h.p.HikariPool [http-nio-8080-exec-1] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@16486271
+2024-06-19 16:48:27,421 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Start completed.
+2024-06-19 16:48:40,296 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 16:48:40,300 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 16:51:08,369 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:51:08,403 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 34276 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 16:51:08,404 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:51:08,940 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:51:08,943 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:51:08,967 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:51:09,053 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:51:09,053 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:51:09,053 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:51:09,053 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:51:09,471 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 16:51:09,480 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:51:09,482 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 16:51:09,482 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 16:51:09,527 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 16:51:09,527 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1086 ms
+2024-06-19 16:51:10,094 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:51:10,452 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:51:10,466 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 16:51:10,473 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.376 seconds (process running for 2.875)
+2024-06-19 16:51:13,502 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 16:51:13,503 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-19 16:51:13,504 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-06-19 16:51:13,618 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Starting...
+2024-06-19 16:51:13,751 INFO c.z.h.p.HikariPool [http-nio-8080-exec-1] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b5ca316
+2024-06-19 16:51:13,753 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Start completed.
+2024-06-19 16:51:48,697 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 16:51:48,702 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 16:51:51,518 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:51:51,548 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 23496 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 16:51:51,549 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:51:52,071 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:51:52,074 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:51:52,105 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:51:52,198 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:51:52,199 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:51:52,199 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:51:52,199 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:51:52,608 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 16:51:52,617 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:51:52,619 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 16:51:52,619 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 16:51:52,665 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 16:51:52,666 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1083 ms
+2024-06-19 16:51:53,283 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:51:53,628 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:51:53,642 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 16:51:53,650 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.412 seconds (process running for 2.917)
+2024-06-19 16:52:09,704 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:52:09,733 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 8016 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 16:52:09,733 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:52:10,243 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:52:10,246 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:52:10,271 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:52:10,369 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:52:10,369 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:52:10,369 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:52:10,370 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:52:10,796 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 16:52:10,806 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:52:10,808 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 16:52:10,808 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 16:52:10,865 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 16:52:10,866 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1099 ms
+2024-06-19 16:52:11,458 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:52:11,808 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:52:11,822 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 16:52:11,829 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.396 seconds (process running for 2.916)
+2024-06-19 16:52:15,041 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 16:52:15,041 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-4] Initializing Servlet 'dispatcherServlet'
+2024-06-19 16:52:15,042 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-4] Completed initialization in 1 ms
+2024-06-19 16:52:15,156 INFO c.z.h.HikariDataSource [http-nio-8080-exec-4] spaceHikariCPPool - Starting...
+2024-06-19 16:52:15,284 INFO c.z.h.p.HikariPool [http-nio-8080-exec-4] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@5beb49a6
+2024-06-19 16:52:15,286 INFO c.z.h.HikariDataSource [http-nio-8080-exec-4] spaceHikariCPPool - Start completed.
+2024-06-19 16:52:15,342 ERROR c.b.b.c.e.GlobalExceptionHandler [http-nio-8080-exec-4] request error
+jakarta.servlet.ServletException: Handler dispatch failed: java.lang.NoSuchMethodError: 'java.lang.Integer com.bench.bms.application.model.WarnDto.getCarId()'
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1104)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.Integer com.bench.bms.application.model.WarnDto.getCarId()'
+	at com.bench.bms.api.converter.WarnVoConverterImpl.toVo(WarnVoConverterImpl.java:24)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at com.bench.bms.api.web.BMSController.queryWarnLevel(BMSController.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	... 39 common frames omitted
+2024-06-19 16:52:17,834 ERROR c.b.b.c.e.GlobalExceptionHandler [http-nio-8080-exec-5] request error
+jakarta.servlet.ServletException: Handler dispatch failed: java.lang.NoSuchMethodError: 'java.lang.Integer com.bench.bms.application.model.WarnDto.getCarId()'
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1104)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.Integer com.bench.bms.application.model.WarnDto.getCarId()'
+	at com.bench.bms.api.converter.WarnVoConverterImpl.toVo(WarnVoConverterImpl.java:24)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at com.bench.bms.api.web.BMSController.queryWarnLevel(BMSController.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	... 39 common frames omitted
+2024-06-19 16:52:27,671 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 16:52:27,675 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 16:52:29,610 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:52:29,639 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 33908 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 16:52:29,640 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:52:30,165 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:52:30,168 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:52:30,193 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:52:30,287 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:52:30,287 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:52:30,288 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:52:30,288 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:52:30,700 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 16:52:30,710 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:52:30,711 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 16:52:30,711 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 16:52:30,760 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 16:52:30,760 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1089 ms
+2024-06-19 16:52:31,322 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:52:31,669 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:52:31,682 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 16:52:31,690 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.346 seconds (process running for 2.864)
+2024-06-19 16:52:37,503 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 16:52:37,503 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-19 16:52:37,504 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2024-06-19 16:52:37,614 INFO c.z.h.HikariDataSource [http-nio-8080-exec-2] spaceHikariCPPool - Starting...
+2024-06-19 16:52:37,743 INFO c.z.h.p.HikariPool [http-nio-8080-exec-2] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c7bbadd
+2024-06-19 16:52:37,745 INFO c.z.h.HikariDataSource [http-nio-8080-exec-2] spaceHikariCPPool - Start completed.
+2024-06-19 16:52:37,791 ERROR c.b.b.c.e.GlobalExceptionHandler [http-nio-8080-exec-2] request error
+jakarta.servlet.ServletException: Handler dispatch failed: java.lang.NoSuchMethodError: 'java.lang.Integer com.bench.bms.application.model.WarnDto.getCarId()'
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1104)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.Integer com.bench.bms.application.model.WarnDto.getCarId()'
+	at com.bench.bms.api.converter.WarnVoConverterImpl.toVo(WarnVoConverterImpl.java:24)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at com.bench.bms.api.web.BMSController.queryWarnLevel(BMSController.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	... 39 common frames omitted
+2024-06-19 16:52:55,805 ERROR c.b.b.c.e.GlobalExceptionHandler [http-nio-8080-exec-3] request error
+jakarta.servlet.ServletException: Handler dispatch failed: java.lang.NoSuchMethodError: 'java.lang.Integer com.bench.bms.application.model.WarnDto.getCarId()'
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1104)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.Integer com.bench.bms.application.model.WarnDto.getCarId()'
+	at com.bench.bms.api.converter.WarnVoConverterImpl.toVo(WarnVoConverterImpl.java:24)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at com.bench.bms.api.web.BMSController.queryWarnLevel(BMSController.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	... 39 common frames omitted
+2024-06-19 16:53:18,949 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 16:53:18,954 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 16:56:39,016 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:56:39,045 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 33024 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 16:56:39,046 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:56:39,693 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:56:39,696 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:56:39,728 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:56:39,814 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:56:39,814 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:56:39,814 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:56:39,815 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:56:40,214 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 16:56:40,224 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:56:40,225 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 16:56:40,226 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 16:56:40,271 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 16:56:40,271 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1190 ms
+2024-06-19 16:56:40,860 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:56:41,202 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:56:41,216 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 16:56:41,228 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.514 seconds (process running for 3.002)
+2024-06-19 16:56:46,429 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 16:56:46,429 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-19 16:56:46,430 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-06-19 16:56:46,523 ERROR c.b.b.c.e.GlobalExceptionHandler [http-nio-8080-exec-1] request error
+java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "signal" is null
+	at com.bench.bms.application.service.impl.BmsWarnServiceImpl.signalHandle(BmsWarnServiceImpl.java:78)
+	at com.bench.bms.api.web.BMSController.queryWarnLevel(BMSController.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-06-19 16:57:09,834 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:57:09,864 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 33268 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 16:57:09,865 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:57:10,423 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:57:10,426 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:57:10,451 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:57:10,539 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:57:10,540 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:57:10,540 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:57:10,540 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:57:10,945 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 16:57:10,955 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:57:10,957 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 16:57:10,957 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 16:57:11,004 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 16:57:11,005 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1101 ms
+2024-06-19 16:57:11,587 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:57:11,936 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:57:11,954 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 16:57:11,965 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.412 seconds (process running for 2.962)
+2024-06-19 16:57:16,139 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 16:57:16,139 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-19 16:57:16,140 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-06-19 16:57:16,256 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Starting...
+2024-06-19 16:57:16,384 INFO c.z.h.p.HikariPool [http-nio-8080-exec-1] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@319c1ee7
+2024-06-19 16:57:16,385 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Start completed.
+2024-06-19 16:58:34,622 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 16:58:34,626 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 16:59:21,176 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:59:21,205 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 18160 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 16:59:21,206 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:59:21,761 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:59:21,764 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:59:21,788 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:59:21,876 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:59:21,876 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:59:21,876 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:59:21,876 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:59:22,303 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 16:59:22,313 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:59:22,314 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 16:59:22,315 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 16:59:22,362 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 16:59:22,362 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1123 ms
+2024-06-19 16:59:23,003 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:59:23,362 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 16:59:23,376 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 16:59:23,384 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.498 seconds (process running for 3.616)
+2024-06-19 16:59:24,019 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 16:59:24,020 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-19 16:59:24,022 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2024-06-19 16:59:24,141 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Starting...
+2024-06-19 16:59:24,268 INFO c.z.h.p.HikariPool [http-nio-8080-exec-1] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@653f9a17
+2024-06-19 16:59:24,276 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Start completed.
+2024-06-19 16:59:29,839 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 16:59:29,843 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 17:03:02,013 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 17:03:02,046 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 9144 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 17:03:02,046 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 17:03:02,588 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 17:03:02,590 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 17:03:02,613 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-19 17:03:02,699 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 17:03:02,699 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 17:03:02,699 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 17:03:02,699 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 17:03:03,113 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 17:03:03,123 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 17:03:03,124 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 17:03:03,125 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 17:03:03,172 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 17:03:03,173 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1094 ms
+2024-06-19 17:03:03,751 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 17:03:04,090 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 17:03:04,107 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 17:03:04,119 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.461 seconds (process running for 3.498)
+2024-06-19 17:03:11,524 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 17:03:11,524 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-19 17:03:11,525 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-06-19 17:03:11,639 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Starting...
+2024-06-19 17:03:11,779 INFO c.z.h.p.HikariPool [http-nio-8080-exec-1] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@60040c65
+2024-06-19 17:03:11,780 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Start completed.
+2024-06-19 17:03:57,988 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 17:03:57,992 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 18:45:52,339 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 18:45:52,424 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 21172 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 18:45:52,426 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 18:45:53,186 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 18:45:53,188 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 18:45:53,216 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 18:45:53,310 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 18:45:53,310 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 18:45:53,310 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 18:45:53,310 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 18:45:53,732 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 18:45:53,742 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 18:45:53,743 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 18:45:53,743 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 18:45:53,791 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 18:45:53,791 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1310 ms
+2024-06-19 18:45:54,375 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 18:45:54,723 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 18:45:54,737 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 18:45:54,744 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.87 seconds (process running for 3.434)
+2024-06-19 18:46:04,985 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 18:46:04,985 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-19 18:46:04,986 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-06-19 18:46:05,107 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Starting...
+2024-06-19 18:46:05,251 INFO c.z.h.p.HikariPool [http-nio-8080-exec-1] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cc3d1c0
+2024-06-19 18:46:05,252 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Start completed.
+2024-06-19 18:46:17,901 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 18:46:17,906 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 18:54:56,809 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 18:54:56,844 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 27724 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 18:54:56,845 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 18:54:57,394 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 18:54:57,397 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 18:54:57,422 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-06-19 18:54:57,511 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 18:54:57,511 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 18:54:57,511 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 18:54:57,512 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 18:54:57,921 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 18:54:57,931 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 18:54:57,933 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 18:54:57,933 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 18:54:57,983 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 18:54:57,983 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1104 ms
+2024-06-19 18:54:58,612 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 18:54:59,004 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 18:54:59,021 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 18:54:59,031 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.497 seconds (process running for 3.037)
+2024-06-19 18:55:00,999 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 18:55:00,999 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-19 18:55:01,000 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2024-06-19 18:55:01,115 INFO c.z.h.HikariDataSource [http-nio-8080-exec-2] spaceHikariCPPool - Starting...
+2024-06-19 18:55:01,239 INFO c.z.h.p.HikariPool [http-nio-8080-exec-2] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@1191163
+2024-06-19 18:55:01,241 INFO c.z.h.HikariDataSource [http-nio-8080-exec-2] spaceHikariCPPool - Start completed.
+2024-06-19 18:55:19,698 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 18:55:19,702 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 18:56:23,113 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 18:56:23,145 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 33992 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 18:56:23,146 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 18:56:23,685 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 18:56:23,687 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 18:56:23,720 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2024-06-19 18:56:23,806 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 18:56:23,806 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 18:56:23,806 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 18:56:23,807 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 18:56:24,208 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 18:56:24,217 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 18:56:24,219 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 18:56:24,219 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 18:56:24,269 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 18:56:24,270 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1090 ms
+2024-06-19 18:56:24,847 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 18:56:25,198 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 18:56:25,215 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 18:56:25,226 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.391 seconds (process running for 2.917)
+2024-06-19 18:56:27,427 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 18:56:27,428 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-19 18:56:27,428 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-06-19 18:56:27,544 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Starting...
+2024-06-19 18:56:27,670 INFO c.z.h.p.HikariPool [http-nio-8080-exec-1] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@52858622
+2024-06-19 18:56:27,672 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Start completed.
+2024-06-19 19:08:29,075 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 19:08:29,080 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 20:24:07,277 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 20:24:07,308 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 29960 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 20:24:07,309 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 20:24:07,999 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 20:24:08,002 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 20:24:08,026 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-19 20:24:08,118 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 20:24:08,118 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 20:24:08,118 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 20:24:08,118 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 20:24:08,520 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 20:24:08,530 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 20:24:08,531 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 20:24:08,532 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 20:24:08,581 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 20:24:08,581 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1238 ms
+2024-06-19 20:24:09,217 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 20:24:09,562 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 20:24:09,578 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 20:24:09,586 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.612 seconds (process running for 3.113)
+2024-06-19 20:26:14,779 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 20:26:14,810 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 14452 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 20:26:14,810 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 20:26:15,320 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 20:26:15,323 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 20:26:15,355 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2024-06-19 20:26:15,856 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 20:26:15,866 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 20:26:15,867 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 20:26:15,867 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 20:26:15,913 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 20:26:15,914 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1073 ms
+2024-06-19 20:26:16,480 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 20:26:16,833 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 20:26:16,846 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 20:26:16,853 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.361 seconds (process running for 2.872)
+2024-06-19 20:26:33,135 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 20:26:33,164 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 34748 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 20:26:33,165 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 20:26:33,693 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 20:26:33,695 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 20:26:33,720 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-06-19 20:26:34,208 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 20:26:34,218 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 20:26:34,219 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 20:26:34,220 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 20:26:34,268 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 20:26:34,268 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1073 ms
+2024-06-19 20:26:34,858 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 20:26:35,212 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 20:26:35,229 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 20:26:35,236 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.37 seconds (process running for 2.862)
+2024-06-19 20:26:37,897 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 20:26:37,897 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-19 20:26:37,898 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2024-06-19 20:26:38,019 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Starting...
+2024-06-19 20:26:38,152 INFO c.z.h.p.HikariPool [http-nio-8080-exec-1] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@351168ae
+2024-06-19 20:26:38,154 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Start completed.
+2024-06-19 20:26:49,604 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 20:26:49,609 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 20:26:55,354 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 20:26:55,383 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 27452 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 20:26:55,384 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 20:26:55,903 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 20:26:55,906 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 20:26:55,937 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2024-06-19 20:26:56,424 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 20:26:56,435 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 20:26:56,437 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 20:26:56,437 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 20:26:56,485 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 20:26:56,485 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1069 ms
+2024-06-19 20:26:57,078 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 20:26:57,419 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 20:26:57,436 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 20:26:57,448 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.359 seconds (process running for 2.865)
+2024-06-19 20:45:59,661 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 20:45:59,693 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 20308 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 20:45:59,694 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 20:46:00,273 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 20:46:00,277 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 20:46:00,302 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-19 20:46:00,795 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 20:46:00,804 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 20:46:00,806 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 20:46:00,806 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 20:46:00,852 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 20:46:00,852 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1125 ms
+2024-06-19 20:46:01,221 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'BMSController': Injection of resource dependencies failed
+2024-06-19 20:46:01,223 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2024-06-19 20:46:01,234 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-19 20:46:01,249 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.bench.bms.application.service.SignalListHandle' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.bench.bms.application.service.SignalListHandle' in your configuration.
+
+2024-06-19 20:46:27,492 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 20:46:27,523 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 22840 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 20:46:27,524 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 20:46:28,048 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 20:46:28,050 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 20:46:28,075 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-19 20:46:28,574 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 20:46:28,583 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 20:46:28,585 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 20:46:28,585 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 20:46:28,631 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 20:46:28,631 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1076 ms
+2024-06-19 20:46:29,200 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 20:46:29,561 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 20:46:29,575 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 20:46:29,583 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.38 seconds (process running for 2.86)
+2024-06-19 20:46:35,046 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 20:46:35,046 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-19 20:46:35,047 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2024-06-19 20:46:35,164 INFO c.z.h.HikariDataSource [http-nio-8080-exec-2] spaceHikariCPPool - Starting...
+2024-06-19 20:46:35,297 INFO c.z.h.p.HikariPool [http-nio-8080-exec-2] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c350156
+2024-06-19 20:46:35,299 INFO c.z.h.HikariDataSource [http-nio-8080-exec-2] spaceHikariCPPool - Start completed.
+2024-06-19 20:47:23,226 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 20:47:23,230 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 20:57:30,123 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 20:57:30,153 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 22352 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 20:57:30,154 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 20:57:30,714 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 20:57:30,717 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 20:57:30,741 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2024-06-19 20:57:31,230 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 20:57:31,240 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 20:57:31,242 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 20:57:31,242 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 20:57:31,291 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 20:57:31,291 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1106 ms
+2024-06-19 20:57:31,874 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 20:57:32,220 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 20:57:32,236 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 20:57:32,247 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.411 seconds (process running for 2.911)
+2024-06-19 20:57:37,915 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 20:57:37,915 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2024-06-19 20:57:37,916 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 1 ms
+2024-06-19 20:57:38,031 INFO c.z.h.HikariDataSource [http-nio-8080-exec-3] spaceHikariCPPool - Starting...
+2024-06-19 20:57:38,158 INFO c.z.h.p.HikariPool [http-nio-8080-exec-3] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c7c16c7
+2024-06-19 20:57:38,160 INFO c.z.h.HikariDataSource [http-nio-8080-exec-3] spaceHikariCPPool - Start completed.
+2024-06-19 20:57:50,857 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 20:57:50,861 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 20:59:02,069 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 20:59:02,100 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 32352 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 20:59:02,101 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 20:59:02,624 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 20:59:02,627 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 20:59:02,658 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-06-19 20:59:03,178 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 20:59:03,188 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 20:59:03,190 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 20:59:03,190 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 20:59:03,237 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 20:59:03,237 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1106 ms
+2024-06-19 20:59:03,912 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 20:59:04,319 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 20:59:04,337 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 20:59:04,348 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.562 seconds (process running for 3.087)
+2024-06-19 20:59:06,153 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 20:59:06,153 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-06-19 20:59:06,155 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2024-06-19 20:59:06,268 INFO c.z.h.HikariDataSource [http-nio-8080-exec-2] spaceHikariCPPool - Starting...
+2024-06-19 20:59:06,398 INFO c.z.h.p.HikariPool [http-nio-8080-exec-2] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@24045684
+2024-06-19 20:59:06,399 INFO c.z.h.HikariDataSource [http-nio-8080-exec-2] spaceHikariCPPool - Start completed.
+2024-06-19 21:02:37,212 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 21:02:37,217 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 21:02:40,172 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 21:02:40,203 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 31456 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 21:02:40,204 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 21:02:40,731 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 21:02:40,734 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 21:02:40,764 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2024-06-19 21:02:41,267 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 21:02:41,277 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 21:02:41,278 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 21:02:41,278 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 21:02:41,326 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 21:02:41,326 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1092 ms
+2024-06-19 21:02:41,901 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 21:02:42,252 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 21:02:42,265 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 21:02:42,273 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.384 seconds (process running for 2.885)
+2024-06-19 21:02:44,748 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 21:02:44,749 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-19 21:02:44,750 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-06-19 21:02:44,888 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Starting...
+2024-06-19 21:02:45,018 INFO c.z.h.p.HikariPool [http-nio-8080-exec-1] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fecef1c
+2024-06-19 21:02:45,020 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Start completed.
+2024-06-19 21:03:27,562 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 21:03:27,566 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 21:03:32,192 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 21:03:32,221 INFO o.s.b.StartupInfoLogger [main] Starting BMSApplication using Java 17.0.11 with PID 35756 (D:\Code\JavaProject\BMSSystem\bms-interface\bms-api\target\classes started by 密码是toor in D:\Code\JavaProject\BMSSystem)
+2024-06-19 21:03:32,222 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 21:03:32,736 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 21:03:32,739 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 21:03:32,766 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 21:03:33,271 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-06-19 21:03:33,281 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-19 21:03:33,282 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2024-06-19 21:03:33,283 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-19 21:03:33,332 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-06-19 21:03:33,332 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1082 ms
+2024-06-19 21:03:33,939 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 21:03:34,328 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-06-19 21:03:34,342 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path ''
+2024-06-19 21:03:34,350 INFO o.s.b.StartupInfoLogger [main] Started BMSApplication in 2.436 seconds (process running for 2.946)
+2024-06-19 21:03:37,793 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-19 21:03:37,793 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-06-19 21:03:37,794 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-06-19 21:03:37,908 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Starting...
+2024-06-19 21:03:38,046 INFO c.z.h.p.HikariPool [http-nio-8080-exec-1] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@742eb7b9
+2024-06-19 21:03:38,048 INFO c.z.h.HikariDataSource [http-nio-8080-exec-1] spaceHikariCPPool - Start completed.
+2024-06-19 21:03:47,527 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 21:03:47,532 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.

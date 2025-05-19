@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bench.bms.infra.repository.mapper.RulePoMapper">
+
+    <resultMap id="ruleResultMap" type="com.bench.bms.infra.repository.entity.RulePo">
+        <id property="id" column="id" jdbcType="BIGINT"/>
+        <result property="warnId" column="warn_id" jdbcType="INTEGER"/>
+        <result property="warnName" column="warn_name" jdbcType="VARCHAR"/>
+        <result property="batteryType" column="battery_type" jdbcType="VARCHAR"/>
+        <result property="warnRule" column="warn_rule" jdbcType="VARCHAR"/>
+        <result property="createTime" column="create_time" jdbcType="BIGINT"/>
+        <result property="createUser" column="create_user" jdbcType="VARCHAR"/>
+        <result property="updateTime" column="update_time" jdbcType="BIGINT"/>
+        <result property="updateUser" column="update_user" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <select id="listRules" resultMap="ruleResultMap">
+        select id, warn_id, warn_name, battery_type, warn_rule from Rule;
+    </select>
+
+    <select id="selectRulesBySignal" resultMap="ruleResultMap" parameterType="com.bench.bms.domain.model.SignalDo">
+        SELECT r.id, r.warn_id, r.warn_name, r.battery_type, r.warn_rule
+        FROM Rule r
+        JOIN Car c ON r.battery_Type = c.battery_Type
+        WHERE r.warn_id = #{warnId} AND c.car_id = #{carId};
+    </select>
+
+    <select id="selectRuleById" resultType="com.bench.bms.infra.repository.entity.RulePo">
+        select id, warn_id, battery_type, warn_rule from rule where id = #{Id};
+    </select>
+
+    <update id="updateRuleById" parameterType="com.bench.bms.infra.repository.entity.RulePo">
+        update rule
+        set warn_id = #{warnId},
+        warn_name = #{warnName},
+        battery_type = #{batteryType},
+        warn_rule = #{warnRule},
+        update_time = #{updateTime},
+        update_user = #{updateUser}
+        where id = #{id}
+    </update>
+
+</mapper>

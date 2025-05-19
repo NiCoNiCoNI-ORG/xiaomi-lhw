@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiaomi.lhw-bms.repository.BatteryRuleMapper">
+    <insert id="insert" parameterType="com.xiaom.bms.model.BatteryRule">
+        INSERT INTO battery_rule (id, rule_name, rule_content, create_time, update_time)
+        VALUES (#{id}, #{ruleName}, #{ruleContent}, #{createTime}, #{updateTime})
+    </insert>
+
+    <select id="selectById" resultType="com.xiaom.bms.model.BatteryRule">
+        SELECT id, rule_name, rule_content, create_time, update_time
+        FROM battery_rule
+        WHERE id = #{id}
+    </select>
+
+    <update id="update" parameterType="com.xiaom.bms.model.BatteryRule">
+        UPDATE battery_rule
+        SET rule_name = #{ruleName},
+            rule_content = #{ruleContent},
+            update_time = #{updateTime}
+        WHERE id = #{id}
+    </update>
+
+    <delete id="deleteById">
+        DELETE FROM battery_rule
+        WHERE id = #{id}
+    </delete>
+</mapper>

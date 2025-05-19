@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: bms-api
+  profiles:
+    active: database, orm, web
+
+creator:
+  name: bench

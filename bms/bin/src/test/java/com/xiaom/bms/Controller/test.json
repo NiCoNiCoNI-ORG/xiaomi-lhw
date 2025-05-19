@@ -1,0 +1,17 @@
+{
+  "rid": 1,
+  "ruleName": "Overcharge Alert",
+  "batteryType": "Li-ion",
+  "minValue": -50.00,
+  "maxValue": 50.00,
+  "alertLevel": 2
+},
+{
+  "id": 1,
+  "rid": 1,
+  "ruleName": "Overcharge Alert Updated",
+  "batteryType": "Li-ion",
+  "minValue": -50.00,
+  "maxValue": 50.00,
+  "alertLevel": 3
+}

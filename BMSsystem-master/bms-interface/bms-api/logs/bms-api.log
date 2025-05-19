@@ -1,0 +1,840 @@
+2024-06-19 13:57:52,425 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 13:57:52,451 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 7832 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 13:57:52,452 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 13:57:52,558 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 0.365 seconds (process running for 1.276)
+2024-06-19 13:57:52,881 WARN o.s.t.c.TestContextManager [main] Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [WarnPoDtoConverterTest@57d0fc89]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'WarnPoDtoConverterTest': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:371)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1421)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:398)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:143)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bench.bms.api.converter.SignalVoConverter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@jakarta.annotation.Resource(shareable=true, lookup="", name="", description="", authenticationType=CONTAINER, type=java.lang.Object.class, mappedName="")}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1880)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1406)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:598)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:576)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:738)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:270)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:368)
+	... 73 common frames omitted
+2024-06-19 13:58:44,741 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 13:58:44,765 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 28656 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 13:58:44,766 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 13:58:45,448 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 13:58:45,452 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 13:58:45,484 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 13:58:45,589 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:58:45,590 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:58:45,590 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:58:45,590 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 13:58:46,698 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 13:58:47,132 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.629 seconds (process running for 3.553)
+2024-06-19 13:59:28,990 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 13:59:29,015 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 25656 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 13:59:29,016 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 13:59:29,681 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 13:59:29,684 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 13:59:29,713 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 13:59:29,829 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:59:29,830 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:59:29,830 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 13:59:29,830 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 13:59:30,932 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 13:59:31,367 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.61 seconds (process running for 3.543)
+2024-06-19 14:00:36,330 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 14:00:36,356 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 8360 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 14:00:36,357 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 14:00:37,031 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 14:00:37,034 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 14:00:37,062 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 14:00:37,185 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:00:37,186 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:00:37,186 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:00:37,186 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 14:00:38,353 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 14:00:38,828 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.763 seconds (process running for 3.771)
+2024-06-19 14:02:00,539 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 14:02:00,564 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 33976 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 14:02:00,566 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 14:02:01,224 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 14:02:01,227 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 14:02:01,254 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-06-19 14:02:01,360 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:02:01,360 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:02:01,361 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:02:01,361 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 14:02:02,461 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 14:02:02,896 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.596 seconds (process running for 3.523)
+2024-06-19 14:03:53,715 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 14:03:53,739 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 11756 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 14:03:53,740 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 14:03:54,427 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 14:03:54,431 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 14:03:54,462 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-06-19 14:03:54,586 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:03:54,586 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:03:54,587 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:03:54,587 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 14:03:55,864 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 14:03:56,293 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.823 seconds (process running for 3.725)
+2024-06-19 14:06:18,979 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 14:06:19,004 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 16244 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 14:06:19,005 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 14:06:19,689 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 14:06:19,692 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 14:06:19,724 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-06-19 14:06:19,832 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:06:19,833 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:06:19,833 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:06:19,833 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 14:06:20,924 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 14:06:21,382 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.652 seconds (process running for 3.549)
+2024-06-19 14:06:42,024 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 14:06:42,048 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 26652 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 14:06:42,049 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 14:06:42,731 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 14:06:42,734 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 14:06:42,765 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2024-06-19 14:06:42,870 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:06:42,871 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:06:42,871 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:06:42,871 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 14:06:43,963 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 14:06:44,396 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.615 seconds (process running for 3.511)
+2024-06-19 14:08:55,215 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 14:08:55,239 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 12188 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 14:08:55,240 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 14:08:55,908 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 14:08:55,911 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 14:08:55,938 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 14:08:56,046 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:08:56,047 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:08:56,047 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:08:56,047 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 14:08:57,158 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 14:08:57,615 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.659 seconds (process running for 3.648)
+2024-06-19 14:28:56,889 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 14:28:56,913 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 5684 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 14:28:56,914 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 14:28:57,610 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 14:28:57,613 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 14:28:57,642 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2024-06-19 14:28:57,768 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:28:57,769 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:28:57,769 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:28:57,770 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 14:28:58,888 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 14:28:59,314 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.677 seconds (process running for 3.581)
+2024-06-19 14:29:00,137 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 14:29:05,312 ERROR c.z.h.p.HikariPool [main] spaceHikariCPPool - Exception during pool initialization.
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:899)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:824)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:449)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:242)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:160)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:118)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:348)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:89)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:64)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at jdk.proxy2/jdk.proxy2.$Proxy77.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:160)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:87)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:149)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:90)
+	at jdk.proxy2/jdk.proxy2.$Proxy78.selectRuleBy(Unknown Source)
+	at com.bench.bms.infra.repository.impl.SignalRepositoryImpl.getRule(SignalRepositoryImpl.java:28)
+	at com.bench.bms.application.service.impl.SignalDomainServiceImpl.getRuleBySignal(SignalDomainServiceImpl.java:27)
+	at com.bench.bms.application.service.impl.BmsWarnServiceImpl.getWarn(BmsWarnServiceImpl.java:51)
+	at WarnPoDtoConverterTest.testToDto(WarnPoDtoConverterTest.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: com.mysql.cj.exceptions.CJException: Unknown database '3306/project1'
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:129)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:787)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:709)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:677)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:137)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.proceedHandshakeWithPluggableAuthentication(NativeAuthenticationProvider.java:470)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:211)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1369)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:133)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:843)
+	... 112 common frames omitted
+2024-06-19 14:30:45,465 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 14:30:45,492 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 33052 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 14:30:45,493 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 14:30:46,160 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 14:30:46,164 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 14:30:46,194 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-06-19 14:30:46,314 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:30:46,315 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:30:46,315 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:30:46,315 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 14:30:47,426 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 14:30:47,851 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.631 seconds (process running for 3.51)
+2024-06-19 14:30:48,674 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 14:30:48,811 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@52849956
+2024-06-19 14:30:48,812 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 14:30:49,034 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 14:30:49,040 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 14:50:53,637 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 14:50:53,663 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 11588 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 14:50:53,664 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 14:50:54,439 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 14:50:54,442 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 14:50:54,469 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 14:50:54,583 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:50:54,584 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:50:54,584 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:50:54,584 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 14:50:55,763 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 14:50:56,207 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.805 seconds (process running for 3.749)
+2024-06-19 14:52:19,946 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 14:52:19,971 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 3608 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 14:52:19,973 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 14:52:20,645 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 14:52:20,648 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 14:52:20,679 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-06-19 14:52:20,786 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:52:20,786 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:52:20,787 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:52:20,787 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 14:52:21,898 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 14:52:22,336 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.632 seconds (process running for 3.531)
+2024-06-19 14:52:23,161 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 14:52:23,328 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@361483eb
+2024-06-19 14:52:23,330 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 14:52:23,393 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 14:52:23,400 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 14:55:05,073 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 14:55:05,100 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 34628 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 14:55:05,102 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 14:55:05,766 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 14:55:05,770 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 14:55:05,798 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 14:55:05,925 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:55:05,925 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:55:05,925 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:55:05,926 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 14:55:06,505 WARN c.b.m.c.m.TableInfoHelper [main] Can not find table primary key in Class: "com.bench.bms.infra.repository.entity.RulePo".
+2024-06-19 14:55:06,505 WARN c.b.m.c.i.DefaultSqlInjector [main] class com.bench.bms.infra.repository.entity.RulePo ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-06-19 14:55:07,034 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 14:55:07,467 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.658 seconds (process running for 3.562)
+2024-06-19 14:55:08,291 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 14:55:08,447 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@5186c801
+2024-06-19 14:55:08,449 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 14:55:08,514 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 14:55:08,521 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 14:55:32,703 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 14:55:32,729 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 31684 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 14:55:32,730 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 14:55:33,402 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 14:55:33,405 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 14:55:33,433 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 14:55:33,549 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:55:33,549 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:55:33,549 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:55:33,550 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 14:55:34,671 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 14:55:35,095 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.642 seconds (process running for 3.551)
+2024-06-19 14:55:35,922 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 14:55:36,072 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a42145
+2024-06-19 14:55:36,074 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 14:55:36,129 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 14:55:36,135 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 14:55:52,861 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 14:55:52,887 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 34988 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 14:55:52,888 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 14:55:53,556 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 14:55:53,560 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 14:55:53,591 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2024-06-19 14:55:53,701 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:55:53,701 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:55:53,701 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 14:55:53,702 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 14:55:54,809 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 14:55:55,239 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.626 seconds (process running for 3.545)
+2024-06-19 14:55:56,101 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 14:55:56,261 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e67e090
+2024-06-19 14:55:56,263 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 14:55:56,327 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 14:55:56,333 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 15:04:04,960 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 15:04:04,986 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 34904 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 15:04:04,988 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 15:04:05,672 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 15:04:05,675 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 15:04:05,704 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 15:04:05,819 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:04:05,819 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:04:05,819 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:04:05,819 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 15:04:06,957 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 15:04:07,397 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.671 seconds (process running for 3.637)
+2024-06-19 15:04:08,227 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 15:04:08,384 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e67e090
+2024-06-19 15:04:08,386 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 15:04:08,448 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 15:04:08,455 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 15:06:54,741 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 15:06:54,767 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 30376 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 15:06:54,768 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 15:06:55,444 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 15:06:55,447 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 15:06:55,477 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2024-06-19 15:06:55,590 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:06:55,590 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:06:55,590 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:06:55,591 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 15:06:56,713 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 15:06:57,145 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.638 seconds (process running for 3.545)
+2024-06-19 15:06:57,975 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 15:06:58,123 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@6055e899
+2024-06-19 15:06:58,125 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 15:06:58,192 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 15:06:58,200 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 15:14:04,753 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 15:14:04,796 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 32292 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 15:14:04,798 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 15:14:05,937 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 15:14:05,943 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 15:14:06,000 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+2024-06-19 15:14:06,234 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:14:06,235 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:14:06,235 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:14:06,236 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 15:14:06,621 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 15:14:06,654 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 26748 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 15:14:06,656 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 15:14:07,677 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 15:14:07,682 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 15:14:07,734 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+2024-06-19 15:14:07,941 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:14:07,942 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:14:07,942 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:14:07,943 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 15:14:08,111 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 15:14:08,816 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 4.419 seconds (process running for 5.5)
+2024-06-19 15:14:09,668 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 15:14:10,274 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 3.993 seconds (process running for 5.421)
+2024-06-19 15:14:23,322 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 15:14:23,347 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 29108 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 15:14:23,348 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 15:14:24,012 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 15:14:24,015 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 15:14:24,042 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 15:14:24,157 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:14:24,158 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:14:24,158 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:14:24,158 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 15:14:25,273 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 15:14:25,728 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.65 seconds (process running for 3.579)
+2024-06-19 15:14:26,571 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 15:14:26,720 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@758d0555
+2024-06-19 15:14:26,722 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 15:14:26,783 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 15:14:26,790 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 15:30:37,311 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 15:30:37,337 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 34364 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 15:30:37,338 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 15:30:38,015 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 15:30:38,018 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 15:30:38,046 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 15:30:38,158 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:30:38,158 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:30:38,158 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:30:38,159 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 15:30:39,269 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 15:30:39,692 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.622 seconds (process running for 3.589)
+2024-06-19 15:36:09,444 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 15:36:09,470 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 20008 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 15:36:09,471 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 15:36:10,142 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 15:36:10,146 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 15:36:10,174 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 15:36:10,280 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:36:10,280 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:36:10,280 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:36:10,281 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 15:36:11,396 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 15:36:11,833 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.638 seconds (process running for 3.555)
+2024-06-19 15:36:58,403 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 15:36:58,429 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 6996 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 15:36:58,430 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 15:36:59,090 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 15:36:59,094 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 15:36:59,122 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-06-19 15:36:59,237 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:36:59,238 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:36:59,238 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:36:59,238 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 15:37:00,367 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 15:37:00,800 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.637 seconds (process running for 3.539)
+2024-06-19 15:37:35,411 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 15:37:35,436 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 30420 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 15:37:35,437 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 15:37:36,106 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 15:37:36,109 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 15:37:36,138 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2024-06-19 15:37:36,242 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:37:36,243 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:37:36,243 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:37:36,243 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 15:37:37,365 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 15:37:37,816 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.644 seconds (process running for 3.557)
+2024-06-19 15:44:24,644 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 15:44:24,670 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 32524 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 15:44:24,671 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 15:44:25,366 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 15:44:25,369 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 15:44:25,396 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-06-19 15:44:25,509 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:44:25,510 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:44:25,510 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:44:25,510 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 15:44:26,129 WARN c.b.m.c.m.TableInfoHelper [main] Can not find table primary key in Class: "com.bench.bms.infra.repository.entity.WarnPo".
+2024-06-19 15:44:26,130 WARN c.b.m.c.i.DefaultSqlInjector [main] class com.bench.bms.infra.repository.entity.WarnPo ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-06-19 15:44:26,632 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 15:44:27,065 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.671 seconds (process running for 3.558)
+2024-06-19 15:44:27,884 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 15:44:28,044 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ecc4be7
+2024-06-19 15:44:28,046 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 15:44:28,224 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 15:44:28,236 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 15:47:00,688 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 15:47:00,714 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 17184 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 15:47:00,715 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 15:47:01,384 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 15:47:01,387 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 15:47:01,416 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 15:47:01,520 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:47:01,520 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:47:01,520 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:47:01,520 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 15:47:02,139 WARN c.b.m.c.m.TableInfoHelper [main] Can not find table primary key in Class: "com.bench.bms.infra.repository.entity.WarnPo".
+2024-06-19 15:47:02,139 WARN c.b.m.c.i.DefaultSqlInjector [main] class com.bench.bms.infra.repository.entity.WarnPo ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2024-06-19 15:47:02,643 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 15:47:03,080 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.628 seconds (process running for 3.567)
+2024-06-19 15:47:03,905 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 15:47:04,067 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@56ec6ac0
+2024-06-19 15:47:04,069 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 15:47:04,214 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 15:47:04,220 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 15:50:12,075 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 15:50:12,100 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 9720 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 15:50:12,102 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 15:50:12,766 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 15:50:12,770 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 15:50:12,798 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 15:50:12,923 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:50:12,923 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:50:12,924 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:50:12,924 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 15:50:14,051 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 15:50:14,484 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.657 seconds (process running for 3.627)
+2024-06-19 15:50:15,321 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 15:50:15,474 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@9fc2f89
+2024-06-19 15:50:15,476 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 15:50:15,646 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 15:50:15,662 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 15:50:43,986 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 15:50:44,011 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 29748 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 15:50:44,013 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 15:50:44,710 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 15:50:44,713 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 15:50:44,742 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 15:50:44,853 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:50:44,854 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:50:44,854 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:50:44,854 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 15:50:45,967 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 15:50:46,393 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.65 seconds (process running for 3.521)
+2024-06-19 15:50:47,206 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 15:50:47,374 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@72ce8a9b
+2024-06-19 15:50:47,376 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 15:50:47,525 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 15:50:47,536 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 15:54:34,749 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 15:54:34,775 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 28412 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 15:54:34,776 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 15:54:35,471 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 15:54:35,474 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 15:54:35,503 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 15:54:35,619 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:54:35,620 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:54:35,620 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:54:35,620 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 15:54:36,842 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 15:54:37,267 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.773 seconds (process running for 3.711)
+2024-06-19 15:54:38,094 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 15:54:38,250 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c5c2b17
+2024-06-19 15:54:38,252 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 15:54:38,401 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 15:54:38,413 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 15:55:49,688 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 15:55:49,713 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 23064 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 15:55:49,714 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 15:55:50,393 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 15:55:50,396 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 15:55:50,424 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 15:55:50,538 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:55:50,538 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:55:50,538 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 15:55:50,539 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 15:55:51,655 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 15:55:52,102 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.659 seconds (process running for 3.55)
+2024-06-19 15:55:52,923 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 15:55:53,072 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@48697181
+2024-06-19 15:55:53,074 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 15:55:53,240 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 15:55:53,250 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 16:00:34,622 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:00:34,648 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 7864 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 16:00:34,649 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:00:35,347 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:00:35,350 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:00:35,381 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:00:35,518 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:00:35,518 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:00:35,518 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:00:35,519 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:00:36,668 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:00:37,093 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.705 seconds (process running for 3.712)
+2024-06-19 16:00:37,908 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 16:00:38,057 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@483fe83a
+2024-06-19 16:00:38,058 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 16:00:38,109 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 16:00:38,115 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 16:04:28,887 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:04:28,913 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 30184 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 16:04:28,914 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:04:29,600 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:04:29,604 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:04:29,631 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:04:29,738 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:04:29,738 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:04:29,738 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:04:29,738 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:04:30,875 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:04:31,306 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.66 seconds (process running for 3.587)
+2024-06-19 16:07:25,645 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:07:25,675 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 23964 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 16:07:25,676 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:07:26,418 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:07:26,421 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:07:26,450 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:07:26,568 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:07:26,569 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:07:26,569 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:07:26,570 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:07:27,744 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:07:28,191 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.817 seconds (process running for 3.794)
+2024-06-19 16:12:14,953 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:12:14,978 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 28744 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 16:12:14,979 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:12:15,839 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:12:15,843 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:12:15,871 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:12:15,989 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:12:15,989 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:12:15,990 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:12:15,990 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:12:17,141 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:12:17,574 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.875 seconds (process running for 4.194)
+2024-06-19 16:12:46,750 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:12:46,776 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 31460 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 16:12:46,777 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:12:47,488 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:12:47,491 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:12:47,523 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:12:47,640 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:12:47,641 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:12:47,641 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:12:47,641 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:12:48,766 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:12:49,201 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.692 seconds (process running for 3.689)
+2024-06-19 16:12:50,047 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 16:12:50,205 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@528a16fb
+2024-06-19 16:12:50,207 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 16:12:50,379 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 16:12:50,399 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 16:15:35,511 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:15:35,544 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 17664 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 16:15:35,546 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:15:36,275 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:15:36,279 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:15:36,311 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:15:36,432 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:15:36,433 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:15:36,433 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:15:36,433 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:15:37,638 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:15:38,095 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.848 seconds (process running for 3.842)
+2024-06-19 16:15:38,972 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 16:15:39,143 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@4797023d
+2024-06-19 16:15:39,145 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 16:15:39,327 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 16:15:39,334 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 16:15:47,094 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:15:47,120 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 33612 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 16:15:47,122 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:15:47,822 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:15:47,825 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:15:47,853 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:15:47,971 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:15:47,972 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:15:47,972 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:15:47,972 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:15:49,124 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:15:49,572 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.731 seconds (process running for 3.784)
+2024-06-19 16:15:50,400 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 16:15:50,572 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c3c31a5
+2024-06-19 16:15:50,574 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 16:15:50,752 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 16:15:50,758 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 16:18:50,787 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:18:50,815 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 34072 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 16:18:50,816 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:18:51,518 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:18:51,521 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:18:51,549 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:18:51,668 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:18:51,668 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:18:51,668 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:18:51,669 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:18:52,859 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:18:53,328 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.8 seconds (process running for 3.773)
+2024-06-19 16:18:54,184 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 16:18:54,350 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@278150a1
+2024-06-19 16:18:54,352 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 16:18:54,520 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 16:18:54,526 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 16:19:37,140 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:19:37,167 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 19656 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 16:19:37,169 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:19:37,862 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:19:37,865 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:19:37,895 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:19:38,018 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:19:38,018 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:19:38,019 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:19:38,019 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:19:39,192 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:19:39,651 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.77 seconds (process running for 3.745)
+2024-06-19 16:19:40,531 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 16:19:40,690 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@af96ac9
+2024-06-19 16:19:40,692 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 16:19:40,854 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 16:19:40,860 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 16:28:41,522 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:28:41,548 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 28732 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 16:28:41,549 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:28:42,266 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:28:42,270 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:28:42,303 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:28:42,419 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:28:42,420 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:28:42,420 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:28:42,421 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:28:43,545 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:28:43,984 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.717 seconds (process running for 3.637)
+2024-06-19 16:28:44,827 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 16:28:45,046 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ac77269
+2024-06-19 16:28:45,048 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 16:28:45,124 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 16:28:45,129 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
+2024-06-19 16:33:48,220 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2024-06-19 16:33:48,252 INFO o.s.b.StartupInfoLogger [main] Starting WarnPoDtoConverterTest using Java 17.0.11 with PID 4912 (started by 密码是toor in D:\Code\JavaProject\BMSSystem\bms-interface\bms-api)
+2024-06-19 16:33:48,253 INFO o.s.b.SpringApplication [main] The following 3 profiles are active: "database", "orm", "web"
+2024-06-19 16:33:48,988 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-06-19 16:33:48,992 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-06-19 16:33:49,021 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2024-06-19 16:33:49,134 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'carPoMapper' and 'com.bench.bms.infra.repository.mapper.CarPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:33:49,135 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'rulePoMapper' and 'com.bench.bms.infra.repository.mapper.RulePoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:33:49,135 WARN o.m.l.Logger [main] Skipping MapperFactoryBean with name 'warnPoMapper' and 'com.bench.bms.infra.repository.mapper.WarnPoMapper' mapperInterface. Bean already defined with the same name!
+2024-06-19 16:33:49,135 WARN o.m.l.Logger [main] No MyBatis mapper was found in '[com.bench.bms.infra.repository.mapper]' package. Please check your configuration.
+2024-06-19 16:33:50,263 WARN o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration [main] Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-06-19 16:33:50,693 INFO o.s.b.StartupInfoLogger [main] Started WarnPoDtoConverterTest in 2.749 seconds (process running for 3.659)
+2024-06-19 16:33:51,501 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Starting...
+2024-06-19 16:33:51,660 INFO c.z.h.p.HikariPool [main] spaceHikariCPPool - Added connection com.mysql.cj.jdbc.ConnectionImpl@48788853
+2024-06-19 16:33:51,662 INFO c.z.h.HikariDataSource [main] spaceHikariCPPool - Start completed.
+2024-06-19 16:33:51,729 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown initiated...
+2024-06-19 16:33:51,735 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] spaceHikariCPPool - Shutdown completed.
