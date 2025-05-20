@@ -50,16 +50,14 @@ public class BatteryWarnServiceImpl implements BatteryWarnService {
             Cursor<byte[]> cursor = connection.scan(options);
 
             while (cursor.hasNext()) {
-                byte[] rawKey = cursor.next(); // 获取键名
-                String key = new String(rawKey, StandardCharsets.UTF_8); // 将键名转换为字符串格式
+                byte[] rawKey = cursor.next();
+                String key = new String(rawKey, StandardCharsets.UTF_8);
 
                 // 获取 Hash 数据
                 Map<byte[], byte[]> entries = connection.hGetAll(rawKey);
                 if (entries == null || entries.isEmpty()) {
                     continue;
                 }
-
-                // 转换为 String -> String 的 Map
                 Map<String, String> stringMap = new HashMap<>();
                 for (Map.Entry<byte[], byte[]> entry : entries.entrySet()) {
                     stringMap.put(
@@ -72,13 +70,12 @@ public class BatteryWarnServiceImpl implements BatteryWarnService {
                     BatteryRule rule = objectMapper.convertValue(stringMap, BatteryRule.class);
                     rules.add(rule);
                 } catch (Exception e) {
-                    // 使用日志框架记录异常会更好
+
                     System.err.println("Error converting hash to BatteryRule: " + e.getMessage());
                 }
             }
             return null; // 返回类型为 Void，所以返回 null
         });
-
         // 如果没有找到任何规则，则从数据库中加载所有规则
         if (rules.isEmpty()) {
             return batteryRuleMapper.findAllRules();
@@ -130,6 +127,17 @@ public class BatteryWarnServiceImpl implements BatteryWarnService {
 
     @Override
     public void reportWarnings(List<WarnReportRequest> requests) {
+        // 处理Signal_info数据
+        String pattern = "Signal_info:*";
+        Set<String> keys = redisTemplate.keys(pattern);
+        if (keys != null) {
+            for (String key : keys) {
+                Object value = redisTemplate.opsForValue().get(key);
+                System.out.println("Key: " + key + ", Value: " + value);
+            }
+        }
+
+        // 处理告警请求
         for (WarnReportRequest request : requests) {
             List<BatteryRule> rules = getRulesFromCache(request);
             Map<String, Double> signals = request.getSignal();

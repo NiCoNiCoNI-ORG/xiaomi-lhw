@@ -16,7 +16,7 @@ public class SignalInfoController {
     @Autowired
     private SignalInfoService signalInfoService;
 
-    @PostMapping
+    @PostMapping("/add")
     public ResponseResult<Integer> createSignalInfo(@RequestBody SignalInfo signalInfo) {
         try {
             int result = signalInfoService.createSignalInfo(signalInfo);
